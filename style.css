@@ -85,7 +85,7 @@ ul li.active a{
 .container .card{
     position: relative;
     width: 20%;
-    height: 85%;
+    height: 45vh;
     margin: 3%;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 6%;
