@@ -36,16 +36,10 @@ ul li.active a{
     color:black;
 }
 .logo{
-    float : left;
-    margin-top:1%;
-    margin-left:3%;
-    width: 5%;
-    height: auto;
-    font-family: Roboto;
-    font-size: 125%;
-    color: white;
-    align-content: center;
-    justify-content: center;
+    position: absolute;
+    top: -2%;
+    left: -2%;
+    max-width: 150%;
 }
 .main{
     max-width: 100vw;
