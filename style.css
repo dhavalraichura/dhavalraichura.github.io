@@ -53,7 +53,7 @@ ul li.active a{
 }
 .title h1{
     color:White;
-    font-size: 50px;
+    font-size: 350%;
     font-family: sans-serif;
     text-shadow: 0 0 3px black;
     transition: 0.35s ease-out;
@@ -67,7 +67,7 @@ ul li.active a{
     transition: 0.35s ease-out;
     background-color:white;
     color:black;
-    font-size: 50px;
+    font-size: 350%;
     text-shadow: none;
 }
 .container{
@@ -85,7 +85,7 @@ ul li.active a{
 .container .card{
     position: relative;
     width: 20%;
-    height: 45vh;
+    height: 400px;
     margin: 3%;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 6%;
