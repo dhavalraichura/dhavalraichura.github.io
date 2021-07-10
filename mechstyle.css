@@ -79,5 +79,6 @@ ul li.active a{
     left: 24%;
     width: 50vw;
     height: 40vh;
+    max-height: 550px;
     border-radius: 10px;
 }
