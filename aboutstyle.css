@@ -72,4 +72,13 @@ ul li.active a{
     left:8%;
     margin-right: 5%;
     font-size: 23px;
+    text-shadow: 0 0 5px black;
+}
+.photo img{
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    width: 50vw;
+    height: 40vh;
+    border-radius: 10px;
 }
