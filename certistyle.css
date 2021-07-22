@@ -135,6 +135,9 @@ input[name="r"]{
 #r3:checked ~ .s1{
     margin-left: -40%;
 }
+.btn{
+    visibility: hidden;
+}
 @media only screen and (max-width: 1024px) and (min-width: 480px){
     header{
         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);

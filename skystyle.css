@@ -83,6 +83,9 @@ ul li.active a{
     max-height: 550px;
     border-radius: 10px;
 }
+.btn{
+    visibility: hidden;
+}
 @media only screen and (max-width:1024px){
     header{
         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
@@ -165,7 +168,7 @@ ul li.active a{
         border-radius: 10px;
     }    
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:425px) {
     header{
         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
         height: 120vh;
