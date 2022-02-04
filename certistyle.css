@@ -372,6 +372,7 @@ input[name="r"]{
         position: absolute;
         left: -15%;
         top: -15px;
+        visibility:visible;
         opacity: 0;
         z-index: 50;
     }
