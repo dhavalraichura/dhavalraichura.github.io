@@ -328,7 +328,8 @@ ul li.active a{
         height: 125%;
         top: 0;
         display: flex;
-    }.box{
+    }
+    .box{
         position:absolute;
         top: 15vh;
         left: 42%;
