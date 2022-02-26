@@ -138,7 +138,7 @@ input[name="r"]{
 .btn{
     visibility: hidden;
 }
-@media only screen and (max-width: 1024px) and (min-width: 480px){
+@media only screen and (max-width: 1366px) and (min-width: 480px){
     header{
         background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
         height: 100vh;
