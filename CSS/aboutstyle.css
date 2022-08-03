@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Media/scenery.jpg);
     height: 100vh;
     max-height:1000vh;
     width: 100vw;
