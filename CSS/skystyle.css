@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Media/scenery.jpg);
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -88,7 +88,7 @@ ul li.active a{
 }
 @media only screen and (max-width:1366px){
     header{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Media/scenery.jpg);
         height: 100vh;
         width: 100vw;
         background-size: cover;
@@ -171,7 +171,7 @@ ul li.active a{
 }
 @media only screen and (max-width:425px) {
     header{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(scenery.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Media/scenery.jpg);
         height: 120vh;
         width: 100vw;
         background-size: cover;
