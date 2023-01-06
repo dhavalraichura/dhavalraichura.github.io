@@ -18,12 +18,14 @@
     margin: 0;
 }
 body{
-    /* background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.87)),url(../Media/scenery.jpg); */
     background-image: linear-gradient(black,rgb(20, 20, 30,0.95));
     width: 100vw;
     min-height: 100vh;
     margin: 0;
 }
+
+/* top bar css starts */
+
 .topBar{
     display: flex;
     background-color: black;
@@ -64,6 +66,11 @@ ul li a:hover{
     background-color:lightgray;
     color:black;
 }
+
+/* top bar css ends */
+
+/* body css starts */
+
 .container{
     display: flex;
     height: auto;
@@ -112,3 +119,5 @@ ul li a:hover{
 #count{
     visibility: hidden;
 }
+
+/* body css ends */
