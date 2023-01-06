@@ -75,30 +75,56 @@ ul li a:hover{
 
 .container{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 10vh;
-    height: 310vh;
+    height: 200vh;
     width: 100vw;
-    /* max-width: 100%; */
 }
-.card{
+
+#projectList{
     display: flex;
     height: 80vh;
-    width: 80vw;
-}
-
-#certificatelist{
-    display: flex;
     flex-direction: column;
-    height: 150vh;
-    margin-left: 18vw;
-    gap:10vh;
+    gap: 10vh;
 }
 
-.certificate.menu-item{
+.card{
     display: flex;
-    height: 50vh;
-    width: 50vw;
+    overflow: hidden;
+    height: 40vh;
+    width: 60vw;
+    background: rgba(255,255,255,0.075);
+    border-radius: 0.8%;
+    gap: 10vh;
+}
+
+.image{
+    display: flex;
+    width: 45%;
+}
+
+.projectinfo{
+    display: flex;
+    width: 55%;
+    gap: 5vh;
+    flex-direction: column;
+}
+
+.projecttitle{
+    display: flex;
+    font-size: 210%;
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 3vh;
+    width: 100%;
+    color: beige;
+}
+
+.projectdesc{
+    display: flex;
+    color: beige;
+    width: 90%;
+    font-size: 120%;
 }
 
 .box{
@@ -109,3 +135,5 @@ ul li a:hover{
     position: absolute;
     visibility: hidden;
 }
+
+/* body css ends */
