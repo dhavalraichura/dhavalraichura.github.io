@@ -107,7 +107,7 @@
     .content h1{
         display: flex;
         color:white;
-        font-family: rubik;
+        font-family: "Roboto";
         font-size: 340%;
         width: 100%;
         margin-bottom: 2vh;
@@ -121,7 +121,7 @@
     .content li{
         display: flex;
         color: white;
-        font-family: rubik;
+        font-family: "Roboto";
         font-size: 180%;
         width: 100%;
     }
@@ -294,7 +294,7 @@
     /* Scroll Bar Configuration Ends */
 
     *{
-        font-family: rubik;
+        font-family: "Roboto";
         padding: 0;
         margin: 0;
     }
@@ -387,7 +387,7 @@
     .content h1{
         display: flex;
         color:white;
-        font-family: rubik;
+        font-family: "Roboto";
         font-size: 340%;
         width: 100%;
         margin-bottom: 2vh;
@@ -401,7 +401,7 @@
     .content li{
         display: flex;
         color: white;
-        font-family: rubik;
+        font-family: "Roboto";
         font-size: 180%;
         width: 100%;
     }
@@ -577,7 +577,7 @@
     /* Scroll Bar Configuration Ends */
 
     *{
-        font-family: rubik;
+        font-family: "Roboto";
         padding: 0;
         margin: 0;
     }
