@@ -2,31 +2,37 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>
-            Dhaval Raichura</title>
-            <link rel="stylesheet" type = "text/css" href="../CSS/style.css">
+        <title>
+            Dhaval Raichura
+        </title>
+        <link rel="stylesheet" type = "text/css" href="../CSS/style.css">
 </head>
 <body>
     <div class = "topBar">
-        <a class = "logo" href="./index.html"><img  src = "../Media/log2.jpeg"></a>
-        <ul>
-        <li><a class="activePage" href = "./index.html">Home</a></li>
-        <li><a href = "./certi.html">Certificates</a></li>
-        <li><a href = "./projects.html">Projects</a></li>
-        <li><a href = "./contact.html">Contact</a></li>
+        <a class = "logo" href="./index.html" id = "logo"><img  src = "../Media/log2.jpeg"></a>
+        <ul id = linklist>
+            <li><a id = "homeButton" onclick="homeScroll()">Home</a></li>
+            <li><a id = "certiButton" onclick="certificateScroll()">Certificates</a></li>
+            <li><a id = "projectsButton" onclick="projectsScroll()">Projects</a></li>
+            <li><a id = "contactButton" onclick="contactScroll()">Contact</a></li>
         </ul>
-        <div class = "box">
-            <input type ="checkbox" class = "btn">
+        <a href="./viewertracker.js"><div class = "box" id = "box"></a>
+            <input type ="checkbox" class = "btn" onclick="myFunction()">
             <div class = "bar"></div>
             <div class = "bar2"></div>
             <div class = "bar3"></div>
         </div>
+        
+        
     </div>
     <div class="container">
-        <div class="card">
+
+        <!-- Home Code Starts -->
+        
+        <div class="homeCard">
             <div class="content">
-                <h1>Hi, I am Dhaval Raichura</h1>
-                <ul>
+                <h1>🙌 Hi, I am Dhaval Raichura</h1>
+                <ul id = "contentList">
                     <li>
                         💻 Currently working as a Reconciliation Developer.
                     </li>
@@ -34,17 +40,114 @@
                         😁 Looking into Web Development and ML technologies.
                     </li>
                     <li>
-                        🛠 Graduated as a Mecahnical Engineer in 2021.
+                        🛠 Graduated as a Mechanical Engineer in 2021.
                     </li>
                     <li>
                         🏎 Led the team as a Drivetrain Lead.
                     </li>
                 </ul>
             </div>
+            <div class="image">
+                <img src="../Media/mypic.png">
+            </div>
         </div>
-        <div class="image">
-            <img src="../Media/mypic.png">
+        <!-- Home Code Ends -->
+        
+        <!-- Certificate Code Starts -->
+
+        <div class="certificatesCard">
+            <ul id = "certificatelist">
+                <li class ="certificate" ><img src="../Media/pythonbasic.jpg"></li>
+                <li class ="certificate" ><img src="../Media/pythondata.jpg"></li>
+                <li class ="certificate" ><img src="../Media/fusion360.jpg"></li>
+            </ul>
         </div>
+
+        <!-- Certificate Code Ends -->
+
+        <!-- Projects Code Starts -->
+        <div class="projectView">
+            <ul id = projectList>
+                <li>
+                    <div class="projectCard">
+                        <div class = "image">
+                            <img src="../Media/Reconciliation.png">
+                        </div>
+                        <div class="projectinfo">
+                            <div class="projecttitle"><a href = 'https://github.com/dhavalraichura/dhavalraichura.github.io'>Reconciliation Developer</a></div>
+                            <div class = "projectdesc">
+                            Currently working as a Reconciliation Developer , I have learnt and applied the Skills of SQL, PLSQL , UNIX and Gresham CTC (proprietary tool).
+                            Understanding the development life cycle of a software and the release process I am able to and have proposed multiple improvements in the current 
+                            process which when implemented will imporve the efficiency and robustness of the deployments. 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectCard">
+                        <div class = "image">
+                            <img src="../Media/PasswordManager.jpg">
+                        </div>
+                        <div class="projectinfo">
+                            <div class="projecttitle"><a href = 'https://github.com/dhavalraichura/Simple-Password-Manager'>Simple Password Manager</a></div>
+                            <div class = "projectdesc">
+                            This is a command line application I have developed to practically apply the python skills I learned from the Online Platforms like Coursera, Youtube etc.
+                            The main objective of this project was to clear the basics of developing a menu-driven program and to have a project with a very high functionality ceiling 
+                            as to which functions can be included. 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectCard">
+                        <div class = "image">
+                            <img src="../Media/WebsiteBuilding.png">
+                        </div>
+                        <div class="projectinfo">
+                            <div class="projecttitle"><a href = 'https://github.com/dhavalraichura/dhavalraichura.github.io'>This Website Itself</a></div>
+                            <div class = "projectdesc">
+                            The website that I have created is completely coded in HTML and CSS. The objective of this project was to understand the basics of frontend development of 
+                            websites. While this has been an amazing outlet for my creativity and the learning process has been nothing short of truly inspirational , I would like to 
+                            further work on it and improve certain aspects such as (include JavaScript frameworks for a much more interactive experience).
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="projectCard">
+                        <div class = "image">
+                            <img src="../Media/E01.jpg">
+                        </div>
+                        <div class="projectinfo">
+                            <div class="projecttitle"><a href = 'https://www.djs-racing.com/djsre01'>College Project</a></div>
+                            <div class = "projectdesc">
+                            Being a part of a team that produces something tangible has imbibed in me the skills of leading a team to a specific tangible goal.
+                            The objective of taking up this project was to improve on both technical as well as non-technical skills. Being the DriveTrain Lead for the year 2020-2021 
+                            was quite tough at times but also thrilling to work towards something that was not only new but would also revolutionize the way we think about transportation.
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Projects Code Ends -->
+
+        <!-- Contact Code Starts -->
+
+        <div class="contactCard">
+            <div class="contactContent">
+                <ul class="details">
+                    <li><h3>Any and all feedback is appreciated via...</h3></li>
+                    <li>Phone: <a href="tel:+919819464716">(+91) 9819464716</a></li>
+                    <li>E-mail: <a href='mailto:draichura02@gmail.com'>draichura02@gmail.com</a></li>
+                    <li><a href='https://www.linkedin.com/in/dhaval-raichura/'>Linkedin</a></li>
+                    <li><a href='https://github.com/dhavalraichura?tab=repositories'>GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contact Code Ends -->
+
     </div>
    <p id="count"></p>
     <script src = "viewertracker.js"></script>

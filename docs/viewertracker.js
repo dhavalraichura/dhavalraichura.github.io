@@ -17,9 +17,81 @@ function myFunction(){
             box.style.marginLeft = "80vw";
         } else {
             x.style.display = "flex";
-            box.style.marginLeft = "8.75vw";
-            x.style.marginLeft = "40vw";
-            x.style.marginTop = "20vh";
+            box.style.marginLeft = "12.75vw";
+            x.style.marginLeft = "36vw";
+            x.style.marginTop = "12vh";
+            x.style.marginBottom = "3vh";
+            x.style.textAlign = "center";
         }
+    }
+
+}
+if (screen.width <= 480){
+    function homeScroll(){
+        myFunction();
+        scrollTo(0,0);
+    }
+    function certificateScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("certificatesCard");
+        scrollTo(0,000);
+        
+    }
+    function projectsScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("projectCard");
+        scrollTo(0,750);
+        
+    }
+    function contactScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("contactCard");
+        scrollTo(0,2000);
+    }
+}
+else if (screen.width <= 1366){
+    function homeScroll(){
+        myFunction();
+        scrollTo(0,0);
+    }
+    function certificateScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("certificatesCard");
+        scrollTo(0,750);
+        
+    }
+    function projectsScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("projectCard");
+        scrollTo(0,2700);
+        
+    }
+    function contactScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("contactCard");
+        scrollTo(0,5000);
+    }
+}
+else {
+    function homeScroll(){
+        myFunction();
+        scrollTo(0,0);
+    }
+    function certificateScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("certificatesCard");
+        scrollTo(0,1050);
+        
+    }
+    function projectsScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("projectCard");
+        scrollTo(0,4700);
+        
+    }
+    function contactScroll(){
+        myFunction();
+        var elmntToView = document.getElementsByClassName("contactCard");
+        scrollTo(0,9000);
     }
 }
