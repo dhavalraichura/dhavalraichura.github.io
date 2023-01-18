@@ -49,7 +49,7 @@ if (screen.width <= 500){
         scrollTo(0,2000);
     }
 }
-else if (screen.width <= 1366){
+else if (screen.width <= 1366 && screen.width > 600){
     function homeScroll(){
         myFunction();
         scrollTo(0,0);
