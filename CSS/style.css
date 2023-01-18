@@ -278,7 +278,7 @@
         visibility: hidden;
     }
 }
-@media only screen and (max-width: 1366px) and (min-width: 481px){
+@media only screen and (max-width: 1366px) and (min-width: 500px){
     /* Scroll Bar Configuration Starts */
 
     ::-webkit-scrollbar {
@@ -460,7 +460,7 @@
     .projectCard{
         display: flex;
         overflow: hidden;
-        height: 40vh;
+        height: 50vh;
         width: 70vw;
         justify-self: center;
         background: rgba(255, 255, 255, 0.075);
@@ -559,7 +559,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 320px){
+@media only screen and (max-width: 500px) and (min-width: 320px){
     /* Scroll Bar Configuration Starts */
     html{
         width: 100vw;
