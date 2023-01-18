@@ -26,7 +26,7 @@ function myFunction(){
     }
 
 }
-if (screen.width <= 480){
+if (screen.width <= 500){
     function homeScroll(){
         myFunction();
         scrollTo(0,0);
